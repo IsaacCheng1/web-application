@@ -1,0 +1,108 @@
+.container {
+	font-family: Tahoma;
+	font-size: 40px;
+	color: black;
+	white-space: nowrap;
+
+	height: 100%;
+}
+
+.A {
+	display: inline-block;
+	width: 90px;
+	padding-left: 10px;
+	height: 150px;
+
+	border-left: dotted #D0D0FF 10px;
+
+	background-color: #dfe1e7;
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.B {
+	display: inline-block;
+	width: 90px;
+	padding-left: 10px;
+	height: 150px;
+
+	border-left: dotted #D0D0FF 10px;
+
+	background-color: #dfe1e7;
+
+	position: absolute;
+	top: 0px;
+	left: 120px;
+}
+
+.C {
+	display: inline-block;
+	width: 90px;
+	padding-left: 10px;
+	height: 150px;
+
+	border-left: dotted #D0D0FF 10px;
+
+	background-color: #dfe1e7;
+
+	position: absolute;
+	top: 0px;
+	left: 240px;
+}
+
+.D {
+	display: inline-block;
+	width: 90px;
+	padding-left: 10px;
+	height: 150px;
+
+	border-left: dotted #D0D0FF 10px;
+
+	background-color: #dfe1e7;
+
+	position: absolute;
+	top: 0px;
+	left: 360px;
+}
+
+.E {
+	display: inline-block;
+	width: 90px;
+	padding-left: 10px;
+	height: 150px;
+
+	border-left: dotted #D0D0FF 10px;
+
+	background-color: #dfe1e7;
+
+	position: absolute;
+	top: 0px;
+	left: 480px;
+}
+
+.F {
+	display: inline-block;
+	width: 90px;
+	padding-left: 10px;
+	height: 150px;
+
+	border-left: dotted #D0D0FF 10px;
+
+	background-color: #dfe1e7;
+
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.A:hover, .B:hover, .C:hover, .D:hover, .E:hover, .F:hover{
+	cursor: grab;
+	background-color: yellow;
+	color: goldenrod;
+}
+
+.display {
+	display: none;
+}

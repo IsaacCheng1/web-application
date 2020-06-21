@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+
+@keyframes animation {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+
+.container {
+	font-family: 'Tangerine', serif;
+	font-size: 40px;
+	color: black;
+	white-space: nowrap;
+
+	height: 100%;
+}
+
+.A {
+	display: inline-block;
+	width: 90px;
+	padding-left: 10px;
+	height: 150px;
+
+	border-left: dotted #D0D0FF 10px;
+
+	background-color: #dfe1e7;
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+	animation-name: animation;
+	animation-duration: 8s;
+}
+
+.B {
+	display: inline-block;
+	width: 90px;
+	padding-left: 10px;
+	height: 150px;
+
+	border-left: dotted #D0D0FF 10px;
+
+	background-color: #dfe1e7;
+
+	position: absolute;
+	top: 0px;
+	left: 120px;
+}
+
+.C {
+	display: inline-block;
+	width: 90px;
+	padding-left: 10px;
+	height: 150px;
+
+	border-left: dotted #D0D0FF 10px;
+
+	background-color: #dfe1e7;
+
+	position: absolute;
+	top: 0px;
+	left: 240px;
+}
+
+.D {
+	display: inline-block;
+	width: 90px;
+	padding-left: 10px;
+	height: 150px;
+
+	border-left: dotted #D0D0FF 10px;
+
+	background-color: #dfe1e7;
+
+	position: absolute;
+	top: 0px;
+	left: 360px;
+}
+
+.E {
+	display: inline-block;
+	width: 90px;
+	padding-left: 10px;
+	height: 150px;
+
+	border-left: dotted #D0D0FF 10px;
+
+	background-color: #dfe1e7;
+
+	position: absolute;
+	top: 0px;
+	left: 480px;
+}
+
+.F {
+	display: inline-block;
+	width: 90px;
+	padding-left: 10px;
+	height: 150px;
+
+	border-left: dotted #D0D0FF 10px;
+
+	background-color: #dfe1e7;
+
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.A:hover, .B:hover, .C:hover, .D:hover, .E:hover, .F:hover{
+	cursor: grab;
+	background-color: yellow;
+	color: goldenrod;
+}
+
+.display {
+	font-family: Tahoma;
+	font-size: 20px;
+
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	animation-name: animation;
+	animation-duration: 100s;
+}
