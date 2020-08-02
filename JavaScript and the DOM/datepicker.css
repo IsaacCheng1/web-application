@@ -1,0 +1,79 @@
+h1 {
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#datepicker1 {
+	font-weight: bold;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+#datepicker2 {
+	font-weight: bold;
+	text-align: center;
+	font-family: "Times New Roman", Times, serif;
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.leftnav {
+	background-color: #F8F8FF;
+	grid-column-start: 1;
+    grid-column-end: 2;
+    border: 0.5px solid grey;
+}
+
+.title {
+	background-color: #F8F8FF;
+	grid-column-start: 2;
+    grid-column-end: 7;
+    border-bottom: 0.5px solid grey;
+    border-top: 0.5px solid grey;
+}
+
+.rightnav {
+	background-color: #F8F8FF;
+	grid-column-start: 7;
+    grid-column-end: 8;
+    border: 0.5px solid grey;
+}
+
+.header {
+	border-bottom: 1px solid black;
+}
+
+.valid {
+
+}
+
+.today {
+	background: #F8F8FF;
+	color: red;
+}
+
+.invalid {
+	font-weight: normal;
+}
+
+div[class="valid"]:hover {
+	cursor: pointer;
+	background: #F8F8FF;
+}
+
+div[class="leftnav"]:hover {
+	cursor: pointer;
+  	background: #F8F8FF;
+}
+
+div[class="rightnav"]:hover {
+	cursor: pointer;
+  	background: #F8F8FF;
+}
+
+
+.invalid {
+	color: rgb(120,120,120)
+}
