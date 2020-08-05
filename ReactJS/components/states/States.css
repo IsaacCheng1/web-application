@@ -1,0 +1,33 @@
+/*
+CSS for the CS142 project #4 Problem #2 states component
+
+Since CSS uses a global name space for classes we should use names starting with
+cs142-states- here.
+*/
+
+.label {
+	font-weight: bold;
+	width: 100%;
+}
+
+.input {
+	width: 100%;
+}
+
+.state-button {
+	font-weight: bold;
+	width: 10%;
+}
+
+.result {
+	font-weight: bold;
+}
+
+.noResult{
+	color:red;
+	font-weight: bold;
+}
+
+table tr:first-child td {background: green;}
+table tr td {border-top: 1px solid black;}
+table tr:nth-child(odd) td {background: #dfe1e7;}
